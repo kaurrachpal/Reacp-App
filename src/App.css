@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-item .nav-link {
+    color: #253138 !important;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.nav-item {
+    padding: 0px 20px;
+}
+.active {
+    font-weight: bold !important;
+}
+.form-inline input {
+    border: 1px solid #253138;
+    border-radius: 50px;
+}
+.navbar {
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding-top: 25px;
+}
+/****home page css****/
+.Hero_banner {
+    background-color: #f0f9fa;
+    position: relative;
+    padding: 170px 0px;
+    border-radius: 0 0 0 450px;
+}
+.banner_content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+}
+ p {
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+.banner_content a {
+    background: #1ea59a;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    padding: 13px 30px;
+    border-radius: 50px;
+    border: 2px solid #1ea59a;
+    transition: 0.5s;
+    letter-spacing: 1px;
+}
+.banner_content a:hover {
+    color: #1ea59a;
+    background: transparent;
+}
+.contaner_box h2 {
+    font-size: 35px;
+    font-family: 'Montserrat';
+    color: #1e3547;
+    font-weight: 600;
+    padding-top: 100px;
+}
+.contaner_box p {
+    max-width: 71%;
+    margin: 15px auto;
+}
+.card-title {
+    font-size: 1.25rem;
+    font-family: 'Montserrat';
+    color: #1e3547;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.card-text {
+    font-size: 16px;
+    color: #828f99;
+}
+.card-body .btn {
+    background: #1ea59a;
+    font-size: 15px;
+    padding: 4px 12px;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid #1ea59a;
+    transition: 0.5s;
+}
+.card-body .btn:hover {
+    background: transparent;
+    color: #1ea59a;
+}
+.card-body {
+    box-shadow: 0 5px 30px -10px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    padding: 1.5rem !important;
+    margin-top: 25px;
+}
