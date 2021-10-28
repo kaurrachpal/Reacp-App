@@ -4,7 +4,11 @@ import Banner from "../Component/Banner";
 import Headings from "../Component/Headings";
 import Servicepart from "../Component/Servicepart";
 import Sdata from "../Component/Sdata";
-import { Link } from "react-router-dom";
+import Aboutheading from "../Component/Aboutheading";
+import media from "../assets/img/media.png";
+import Blog from "../Component/Blog";
+import Count from "../Component/Count";
+
 
 function cardata(val){
     return(
@@ -39,6 +43,48 @@ const Home = () => {
 
 </div>
 </div>
+<section className="About_section">
+<div className="container">
+    <div className="row">
+        <div className="col-12 col-sm-12 col-md-6 col-lg-6">
+            <Aboutheading 
+                title="People, Behind the Screen"
+                descrption="Pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain
+
+Pleasure rationally encounter consequences that are extremely painful. Nor again is there"
+            />
+        </div>
+        <div className="col-12 col-sm-12 col-md-6 col-lg-6">
+            <img src={media} className="img-fluid" />
+        </div>
+    </div>
+</div>
+
+</section>
+<Blog />
+
+<section className="countdown">
+    <div className="container">
+        <div className="row">
+            <Count 
+                counttitle="1200+"
+                countinfo="Projects done"
+            />
+             <Count 
+                counttitle="2354+"
+                countinfo="Happy Clients"
+            />
+              <Count 
+                counttitle="3299+"
+                countinfo="Cup Coffee"
+            />
+              <Count 
+                counttitle="101+"
+                countinfo="Award Wins"
+            />
+        </div>
+    </div>
+</section>
 
         </>
         

@@ -7,6 +7,8 @@ import Service from './Pages/Service';
 import Blog from './Pages/Blog';
 import Contact from './Pages/Contact';
 import Navbar from './Component/Navbar';
+import Newslatter from "./Component/Newslatter";
+import Footer from './Component/Footer';
 
 function App() {
   return (
@@ -19,6 +21,10 @@ function App() {
         <Route exact path="/blog" component={Blog} />
         <Route exact path="/contact" component={Contact} />
       </Switch>
+
+      <Newslatter />
+      <Footer />
+
     </>
   );
 }
